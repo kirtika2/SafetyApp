@@ -1,0 +1,34 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/parent"
+    tools:context="com.example.vaibhavgupta.feature403.MapsActivity">
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share On Whatsapp"
+        android:id="@+id/share"
+        android:clickable="true"
+        android:layout_gravity="center_horizontal"
+        android:background="#FFFFFF"
+
+     />
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:id="@+id/map"
+    tools:context="com.example.vaibhavgupta.feature403.MapsActivity"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</FrameLayout>
+
+
+
+

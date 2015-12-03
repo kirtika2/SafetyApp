@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Feature403</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="pref_booking_label">Booking Number</string>
+    <string name="pref_booking_key" translatable="false">freindnumber</string>
+    <string name="pref_booking_default" translatable="false">94043</string>
+    <string name="pref_phone_label">My Phone Number</string>
+    <string name="pref_phone_key" translatable="false">phonenumber</string>
+    <string name="pref_phone_default" translatable="false">9818006281</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_speedometer_view">SpeedometerView</string>
+    <string name="title_activity_speed">Speed</string>
+
+</resources>
