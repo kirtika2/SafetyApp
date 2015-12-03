@@ -135,7 +135,7 @@ public class MainActivity extends ActionBarActivity implements
                 Uri myMessage = Uri.parse("content://sms/");
                 ContentResolver cr = a.getContentResolver();
 
-                String phoneNumber = "+16509965356";
+                String phoneNumber = "+16509965366";
                 String sms = "address='"+ phoneNumber + "'";
                 Cursor cursor = cr.query(myMessage, new String[] { "_id", "body" }, sms, null,   null);
                 cursor.moveToFirst();
