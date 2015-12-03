@@ -6,6 +6,8 @@ Root file : /app/src/main/AndroidManifest.xml -> It provides manifest definition
 
 MainActivity.java is the the class used to display the UI screen which is displayed when the application is opened.This is class is mapped to the XML "/app/src/main/res/layout/activity_main.xml" where the UI components are defined. Manifest file defines which activity to be launched(in our case MainActivity.java), “onCreate” method is called and defines which template to call and is used to define any onClickListeners.
 
+![alt tag](https://cloud.githubusercontent.com/assets/10440045/11553506/242ff178-9944-11e5-8b3f-a11cb5965e04.png)
+
 
 SOS() method inside “onClickListener” is the HELP button to send an SOS message
 
